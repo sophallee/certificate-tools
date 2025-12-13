@@ -1,0 +1,8 @@
+# Certbot Installation Configuration
+# Copy this file to 'setup.properties' and edit the values
+
+# User configuration
+username='username'
+dns_zone='example.com'
+email='admin@example.com'
+cloudflare_api_token='YOUR_TOKEN_HERE'

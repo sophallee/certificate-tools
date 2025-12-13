@@ -1,0 +1,9 @@
+# List of subdomains for example.com
+# One domain per line
+# All domains will use the API token from example-com.properties
+
+sub1.example.com
+sub2.example.com
+api.example.com
+app.example.com
+www.example.com
