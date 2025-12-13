@@ -1,0 +1,13 @@
+# Certbot Installation Configuration
+# Copy this file to 'setup.properties' and edit the values
+
+# User configuration
+username='username'
+dns_zone='example.com'
+domain='certbot.example.com'
+email='admin@example.com'
+
+# IMPORTANT: Replace YOUR_CLOUDFLARE_API_TOKEN_HERE with your actual token
+# Get your token from Cloudflare Dashboard: https://dash.cloudflare.com/profile/api-tokens
+# Token needs: Zone.DNS Edit permissions
+cloudflare_api_token='YOUR_CLOUDFLARE_API_TOKEN_HERE'
