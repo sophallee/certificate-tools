@@ -129,6 +129,9 @@ else
     print_success "/snap/bin added to ~/.bash_profile"
 fi
 
+sudo systemctl stop snap.certbot.renew.timer
+sudo systemctl disable snap.certbot.renew.timer
+
 # Source bash_profile for current session
 source ~/.bash_profile
 
